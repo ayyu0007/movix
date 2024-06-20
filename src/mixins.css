@@ -1,0 +1,43 @@
+/* For small screens (min-width: 640px) */
+@media only screen and (min-width: 640px) {
+    /* Insert your styles here for small screens */
+}
+
+/* For medium screens (min-width: 768px) */
+@media only screen and (min-width: 768px) {
+    /* Insert your styles here for medium screens */
+}
+
+/* For large screens (min-width: 1024px) */
+@media only screen and (min-width: 1024px) {
+    /* Insert your styles here for large screens */
+}
+
+/* For extra large screens (min-width: 1280px) */
+@media only screen and (min-width: 1280px) {
+    /* Insert your styles here for extra large screens */
+}
+
+/* For extra extra large screens (min-width: 1536px) */
+@media only screen and (min-width: 1536px) {
+    /* Insert your styles here for extra extra large screens */
+}
+
+/* Ellipsis for text overflow */
+.ellipsis-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ellipsis-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Add more ellipsis classes as needed */
