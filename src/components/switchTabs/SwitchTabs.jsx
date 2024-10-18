@@ -13,7 +13,7 @@ const SwitchTabs = ({ data, onTabChange }) => {
         }, 300);
         onTabChange(tab, index);
     };
-
+ 
     return (
         <div className="switchingTabs">
             <div className="tabItems">

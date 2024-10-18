@@ -19,3 +19,4 @@ const Recommendation = ({ mediaType, id }) => {
 };
 
 export default Recommendation;
+ 
